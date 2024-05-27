@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+    <input id="name" type="text" placeholder="Name"></imput>
+    <input id="age" type="text" placeholder="Age"></imput>
+    <input id="animalClass" type="text" placeholder="AnimalClass"></imput>
+    <button id="agenda-btn" type="button" class="btn btn-primary">add</button>
+    <button id="search-btn" type="button" class="btn btn-primary">search</button>
+    <button id="min-btn" type="button" class="btn btn-primary">min</button>
+    <button id="max-btn" type="button" class="btn btn-primary">max</button>
+    <button id="tree-btn" type="button" class="btn btn-primary">tree</button>
+    </form>
+    <script type="module" src="./src/controllers/script.js"></script>
+</body>
+</html>
